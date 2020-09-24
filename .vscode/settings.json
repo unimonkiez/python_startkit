@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.mypyEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyArgs": ["--strict"],
+  "python.formatting.provider": "black",
+  "files.insertFinalNewline": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs",
+  "python.pythonPath": "/Users/yuvalsaraf/Library/Caches/pypoetry/virtualenvs/py-project-IpHAbs_9-py3.8/bin/python"
+}

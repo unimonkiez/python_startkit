@@ -1,0 +1,28 @@
+name: python_startkit
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./app/server
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: 1.0.10
+      - name: Install
+        run: poetry install
+      - name: Format
+        run: poetry run black --check .
+      - name: Lint
+        run: poetry run pylint ./python_startkit ./tests
+      - name: Typecheck
+        run: poetry run mypy --strict .
+      - name: Test
+        run: poetry run pytest ./tests

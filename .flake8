@@ -1,0 +1,12 @@
+[flake8]
+ignore = 
+    WPS300, # Local import
+    D100, # Docstring public module
+    D103 # Docstring public function
+exclude =
+    .git,
+    __pycache__,
+    *.egg-info,
+    .nox,
+    .pytest_cache,
+    .mypy_cache
