@@ -12,5 +12,10 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs",
-  "python.pythonPath": "/Users/yuvalsaraf/Library/Caches/pypoetry/virtualenvs/py-project-IpHAbs_9-py3.8/bin/python"
+  "python.languageServer": "Pylance",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnboundVariable": "none",
+    "reportImplicitStringConcatenation": "none"
+  },
+  "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/python-startkit-7JfvVAds-py3.8"
 }

@@ -1,5 +1,5 @@
-from python_startkit import __version__
+from python_startkit import start
 
 
 def test_version() -> None:
-    assert __version__ == "0.1.0"
+    assert callable(start)
