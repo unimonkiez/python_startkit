@@ -27,6 +27,7 @@ ignore =
     WPS602, # static methods are cool
     WPS421, # print is cool
     WPS230, # too many public instance - it OK
+    WPS111, # Short variables are OK for me
 per-file-ignores =
     __init__.py: 
         # import unused, for exporting

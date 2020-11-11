@@ -17,5 +17,7 @@
     "reportUnboundVariable": "none",
     "reportImplicitStringConcatenation": "none"
   },
-  "python.pythonPath": "~/Library/Caches/pypoetry/virtualenvs/python-startkit-Kbm6E4Ei-py3.8/bin/python"
+  "python.pythonPath": "~/Library/Caches/pypoetry/virtualenvs/python-startkit-Kbm6E4Ei-py3.8/bin/python",
+  "files.autoSaveDelay": 0,
+  "files.autoSave": "afterDelay"
 }
