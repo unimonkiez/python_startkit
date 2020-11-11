@@ -17,5 +17,5 @@
     "reportUnboundVariable": "none",
     "reportImplicitStringConcatenation": "none"
   },
-  "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/python-startkit-7JfvVAds-py3.8"
+  "python.pythonPath": "~/Library/Caches/pypoetry/virtualenvs/python-startkit-Kbm6E4Ei-py3.8/bin/python"
 }

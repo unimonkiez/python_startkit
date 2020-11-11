@@ -18,7 +18,7 @@ jobs:
       - name: Format
         run: poetry run black --check .
       - name: Lint
-        run: poetry run pylint ./python_startkit ./tests
+        run: poetry run flake8 .
       - name: Typecheck
         run: poetry run mypy --strict .
       - name: Test
